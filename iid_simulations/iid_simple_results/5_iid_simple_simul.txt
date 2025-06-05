@@ -1,0 +1,1048 @@
+Total run time:  1212.72713732719
+N.init:  100
+N.final:  100
+Populations:  50
+Noise SD:  5
+Threshold:  0.5
+Simulations:  20
+Threshold:  0.5
+Parallel:  TRUE
+Runs:  30
+Cores:  30
+Add lagged response:  FALSE
+Seed:  100
+
+#######################
+Power statistics:
+Mean: 0
+Standard deviation: 0
+Best: FALSE
+Worst: FALSE
+False positives statistics:
+Mean: 14.45
+Standard deviation: 2.60515682930283
+Best: 10
+Worst: 21
+True positives statistics:
+Mean: 2.95
+Standard deviation: 0.394034462826206
+Best: 2
+Worst: 4
+False negatives statistics:
+Mean: 1.05
+Standard deviation: 0.394034462826206
+Best: 0
+Worst: 2
+False discovery rate statistics:
+Mean: 0.826994820195285
+Standard deviation: 0.0341906392819265
+Best: 0.764705882352941
+Worst: 0.894736842105263
+Recall statistics:
+Mean: 0.7375
+Standard deviation: 0.0985086157065515
+Best: 0.5
+Worst: 1
+Precision statistics:
+Mean: 0.173005179804715
+Standard deviation: 0.0341906392819265
+Best: 0.105263157894737
+Worst: 0.235294117647059
+F1-score statistics:
+Mean: 0.279445656107253
+Standard deviation: 0.0500210181909217
+Best: 0.173913043478261
+Worst: 0.380952380952381
+Mean squared error statistics:
+Mean: 23.3802188286057
+Standard deviation: 0.221241029652199
+Best: 22.7347860824989
+Worst: 23.7072601911106
+Mean absolute error statistics:
+Mean: 3.83322478470575
+Standard deviation: 0.0216334221193673
+Best: 3.78753936875622
+Worst: 3.88879752523985
+Mean absolute percentage error statistics:
+Mean: 1.97576590328808
+Standard deviation: 0.0396371257659884
+Best: 1.90487558065439
+Worst: 2.07378089550782
+Symmetric mean absolute percentage error statistics:
+Mean: 0.813533682327548
+Standard deviation: 0.00675834217994418
+Best: 0.800433922664163
+Worst: 0.824902271064615
+R^2 statistics:
+Mean: 0.743305535865474
+Standard deviation: 0.00242903404657863
+Best: 0.739714906200566
+Worst: 0.750391825951606
+Pearson's correlation statistics:
+Mean: 0.862150600461218
+Standard deviation: 0.00140754890433192
+Best: 0.860066803335977
+Worst: 0.866251595255626
+Spearman's correlation statistics:
+Mean: 0.754645630645631
+Standard deviation: 0.00269596041006547
+Best: 0.748194472194472
+Worst: 0.759157323157323
+Kendall's correlation statistics:
+Mean: 0.567292292292292
+Standard deviation: 0.00270503334718869
+Best: 0.560968968968969
+Worst: 0.571115115115115
+Detections:
+mov_avg(10, 1*x): 1
+lagged(3, 1*x2): 18
+x3: 20
+p2(1*lagged(2, 1*x4)): 3
+lagged(2, 1*p2(1*x4)): 13
+lagged(2, 1*(x4*x4)): 4
+(lagged(2, 1*x4)*lagged(2, 1*x4)): 0
+x4: 20
+p2(1*x4): 12
+lagged(1, 1*(x4*x4)): 2
+p2(1*lagged(3, 1*x2)): 2
+lagged(2, 1*(x3*x2)): 1
+(mov_avg(20, 1*x4)*sin(1*lagged(3, 1*p2(1*x4)))): 1
+(lagged(2, 1*x4)*x4): 1
+lagged(1, 1*x2): 12
+lagged(3, 1*x4): 9
+sin(1*p2(1*x4)): 4
+mov_avg(10, 1*(x3*x2)): 1
+x: 6
+(x3*lagged(3, 1*x3)): 1
+lagged(1, 1*x4): 7
+(x4*x4): 4
+sqroot(1*lagged(3, 1*x2)): 3
+sqroot(1*x3): 9
+sin(1*(x4*x4)): 4
+(lagged(1, 1*x4)*x4): 3
+(x4*p2(1*x2)): 1
+sqroot(1*lagged(1, 1*x2)): 1
+(p2(1*x4)*sin(1*x4)): 1
+p2(1*sin(1*x)): 2
+lagged(1, 1*sin(1*p2(1*x4))): 1
+random2: 18
+mov_avg(10, 1*random2): 8
+(((random1*x2)*p2(1*mov_avg(10, 1*x4)))*random2): 1
+sqroot(1*sqroot(1*sin(1*random1))): 1
+x2: 8
+(random2*x2): 3
+sqroot(1*random1): 3
+lagged(1, 1*(random2*x2)): 1
+(p2(1*lagged(1, 1*(x2*random2)))*x3): 1
+(mov_avg(20, 1*x4)*x4): 1
+p2(1*mov_avg(10, 1*x3)): 1
+lagged(3, 1*sqroot(1*x3)): 1
+sin(1*mov_avg(10, 1*sin(1*x2))): 1
+p2(1*lagged(1, 1*(x2*random2))): 1
+p2(1*sin(1*sqroot(1*x3))): 1
+p2(1*(p2(1*random2)*(x4*random1))): 1
+sin(1*lagged(3, 1*x2)): 6
+sqroot(1*p2(1*(p2(1*random2)*(x4*random1)))): 1
+p2(1*random2): 2
+p2(1*lagged(1, 1*x4)): 3
+random1: 1
+lagged(2, 1*x2): 1
+mov_avg(10, 1*x2): 1
+(x3*lagged(2, 1*x4)): 1
+(lagged(2, 1*(x3*x4))*(x3*x4)): 1
+sin(1*lagged(2, 1*(random1*(x*x3)))): 1
+mov_avg(10, 1*(random2*x2)): 1
+lagged(2, 1*(x3*x4)): 1
+lagged(2, 1*(random1*(x*x3))): 1
+((random1*(x*x3))*lagged(2, 1*x2)): 1
+(x3*mov_avg(10, 1*x2)): 1
+lagged(3, 1*random2): 3
+lagged(3, 1*p2(1*x2)): 2
+p2(1*(x3*mov_avg(10, 1*x2))): 2
+(lagged(3, 1*random2)*(x*x3)): 1
+(sqroot(1*x4)*p2(1*x4)): 1
+(x*x3): 2
+(lagged(3, 1*x4)*(x4*random2)): 1
+sin(1*x4): 7
+(sin(1*x4)*sqroot(1*x3)): 1
+(lagged(2, 1*(x4*x3))*(x4*x3)): 1
+(p2(1*lagged(2, 1*(x4*x3)))*x2): 1
+p2(1*lagged(2, 1*(x4*x3))): 1
+(lagged(2, 1*x4)*x3): 1
+mov_avg(20, 1*random2): 5
+lagged(2, 1*(x4*x3)): 1
+sin(1*lagged(2, 1*x2)): 1
+(x4*x2): 1
+lagged(2, 1*x): 3
+p2(1*p2(1*x4)): 1
+(mov_avg(20, 1*random2)*lagged(2, 1*(x4*x3))): 1
+(x*x4): 1
+(sin(1*x)*sin(1*x)): 1
+(random2*sqroot(1*lagged(2, 1*x))): 1
+(random2*sin(1*p2(1*random1))): 1
+sin(1*mov_avg(20, 1*(random2*sin(1*p2(1*random1))))): 1
+lagged(2, 1*p2(1*x3)): 3
+lagged(1, 1*x): 1
+(x4*x3): 1
+(lagged(3, 1*x4)*sqroot(1*x3)): 1
+lagged(1, 1*p2(1*x4)): 2
+(lagged(3, 1*(x2*x))*lagged(3, 1*random1)): 1
+(mov_avg(20, 1*random2)*random2): 1
+lagged(3, 1*random1): 1
+sqroot(1*lagged(3, 1*(x2*x))): 1
+sqroot(1*p2(1*lagged(1, 1*x4))): 1
+(random2*x4): 1
+lagged(3, 1*(random2*x4)): 1
+p2(1*x3): 4
+(x2*p2(1*x3)): 1
+sin(1*sqroot(1*x3)): 1
+lagged(3, 1*sin(1*sqroot(1*x3))): 1
+p2(1*lagged(1, 1*x2)): 1
+lagged(2, 1*random2): 1
+lagged(3, 1*sqroot(1*x2)): 2
+(sqroot(1*lagged(3, 1*x2))*lagged(3, 1*x2)): 1
+((lagged(3, 1*x2)*mov_avg(10, 1*sin(1*x3)))*random1): 1
+(x4*mov_avg(20, 1*x4)): 1
+(p2(1*x4)*lagged(3, 1*sqroot(1*x3))): 1
+lagged(1, 1*(x2*x4)): 1
+((lagged(2, 1*sin(1*x3))*lagged(3, 1*x2))*x4): 1
+(random1*x3): 1
+sqroot(1*lagged(1, 1*p2(1*x4))): 1
+p2(1*mov_avg(20, 1*random2)): 1
+p2(1*(x4*x4)): 1
+(x4*random2): 1
+mov_avg(10, 1*x3): 1
+(random2*lagged(1, 1*x3)): 1
+lagged(3, 1*(x4*random2)): 1
+lagged(3, 1*sin(1*x2)): 1
+(random2*(x2*x2)): 1
+p2(1*(x3*x3)): 1
+sqroot(1*mov_avg(10, 1*(x4*random2))): 1
+sqroot(1*sin(1*x)): 1
+p2(1*x): 1
+sqroot(1*x): 1
+((x3*x3)*x2): 1
+lagged(3, 1*sqroot(1*sin(1*x))): 1
+sin(1*random2): 2
+sqroot(1*p2(1*sin(1*mov_avg(10, 1*x)))): 1
+p2(1*mov_avg(10, 1*x)): 1
+sqroot(1*lagged(3, 1*sqroot(1*sqroot(1*x3)))): 1
+sin(1*x): 1
+lagged(1, 1*sin(1*(x4*x4))): 1
+(mov_avg(10, 1*random2)*(x3*mov_avg(10, 1*x2))): 1
+lagged(2, 1*random1): 1
+sin(1*sin(1*x4)): 1
+sin(1*lagged(2, 1*random1)): 1
+(random2*((sin(1*x3)*mov_avg(20, 1*x2))*random2)): 1
+mov_avg(10, 1*sin(1*sin(1*x4))): 1
+p2(1*p2(1*x3)): 1
+p2(1*p2(1*p2(1*x4))): 1
+(lagged(3, 1*x2)*p2(1*x3)): 1
+
+######################
+Simulation: 1
+Run time: 57.5519347190857
+Detective measures:
+Power: FALSE
+False positives 13
+True positives: 3
+False negatives: 1
+False discovery rate: 0.8125
+Recall: 0.75
+Precision: 0.1875
+F1-score: 0.3
+Predictive measures: 
+MSE: 23.1598007685059
+MAE: 3.83314057918307
+MAPE: 1.98044383586244
+SMAPE: 0.818046061497369
+Pearson: 0.863554013610282
+Spearman: 0.755573015573016
+Kendall: 0.568876876876877
+R2: 0.745725534422274
+Features in simulation: 
+x3
+x4
+p2(1*x4)
+lagged(3, 1*x2)
+lagged(1, 1*(x4*x4))
+p2(1*lagged(3, 1*x2))
+lagged(2, 1*(x3*x2))
+(mov_avg(20, 1*x4)*sin(1*lagged(3, 1*p2(1*x4))))
+(lagged(2, 1*x4)*x4)
+lagged(2, 1*p2(1*x4))
+lagged(1, 1*x2)
+lagged(3, 1*x4)
+sin(1*p2(1*x4))
+mov_avg(10, 1*(x3*x2))
+x
+(x3*lagged(3, 1*x3))
+
+######################
+Simulation: 2
+Run time: 59.1171350479126
+Detective measures:
+Power: FALSE
+False positives 14
+True positives: 3
+False negatives: 1
+False discovery rate: 0.823529411764706
+Recall: 0.75
+Precision: 0.176470588235294
+F1-score: 0.285714285714286
+Predictive measures: 
+MSE: 23.2884130298957
+MAE: 3.82140419755529
+MAPE: 1.96646604254305
+SMAPE: 0.814967498791225
+Pearson: 0.862736045191606
+Spearman: 0.754915654915655
+Kendall: 0.567315315315315
+R2: 0.744313483672852
+Features in simulation: 
+x3
+x4
+lagged(1, 1*x4)
+(x4*x4)
+lagged(1, 1*x2)
+sqroot(1*lagged(3, 1*x2))
+lagged(3, 1*x2)
+sqroot(1*x3)
+p2(1*lagged(2, 1*x4))
+sin(1*(x4*x4))
+(lagged(1, 1*x4)*x4)
+(x4*p2(1*x2))
+sqroot(1*lagged(1, 1*x2))
+(p2(1*x4)*sin(1*x4))
+p2(1*sin(1*x))
+x
+lagged(1, 1*sin(1*p2(1*x4)))
+
+######################
+Simulation: 3
+Run time: 56.046247959137
+Detective measures:
+Power: FALSE
+False positives 10
+True positives: 3
+False negatives: 1
+False discovery rate: 0.769230769230769
+Recall: 0.75
+Precision: 0.230769230769231
+F1-score: 0.352941176470588
+Predictive measures: 
+MSE: 23.7072601911106
+MAE: 3.88879752523985
+MAPE: 1.94339724835947
+SMAPE: 0.819327735199566
+Pearson: 0.860066803335977
+Spearman: 0.748194472194472
+Kendall: 0.560968968968969
+R2: 0.739714906200566
+Features in simulation: 
+p2(1*x4)
+x3
+x4
+random2
+lagged(2, 1*p2(1*x4))
+lagged(3, 1*x2)
+mov_avg(10, 1*random2)
+(((random1*x2)*p2(1*mov_avg(10, 1*x4)))*random2)
+sqroot(1*sqroot(1*sin(1*random1)))
+lagged(3, 1*x4)
+p2(1*lagged(3, 1*x2))
+x2
+(random2*x2)
+
+######################
+Simulation: 4
+Run time: 1.0352729121844
+Detective measures:
+Power: FALSE
+False positives 16
+True positives: 3
+False negatives: 1
+False discovery rate: 0.842105263157895
+Recall: 0.75
+Precision: 0.157894736842105
+F1-score: 0.260869565217391
+Predictive measures: 
+MSE: 23.3428668499656
+MAE: 3.84379391908561
+MAPE: 1.98314530664665
+SMAPE: 0.811227194149306
+Pearson: 0.862389487469679
+Spearman: 0.75543413943414
+Kendall: 0.566918918918919
+R2: 0.743715628098215
+Features in simulation: 
+x3
+x4
+random2
+p2(1*x4)
+lagged(3, 1*x2)
+lagged(2, 1*p2(1*x4))
+(random2*x2)
+lagged(1, 1*x2)
+lagged(3, 1*x4)
+mov_avg(10, 1*random2)
+sqroot(1*random1)
+lagged(1, 1*(random2*x2))
+(p2(1*lagged(1, 1*(x2*random2)))*x3)
+(mov_avg(20, 1*x4)*x4)
+p2(1*mov_avg(10, 1*x3))
+lagged(3, 1*sqroot(1*x3))
+sin(1*mov_avg(10, 1*sin(1*x2)))
+p2(1*lagged(1, 1*(x2*random2)))
+p2(1*sin(1*sqroot(1*x3)))
+
+######################
+Simulation: 5
+Run time: 1.04297699133555
+Detective measures:
+Power: FALSE
+False positives 12
+True positives: 3
+False negatives: 1
+False discovery rate: 0.8
+Recall: 0.75
+Precision: 0.2
+F1-score: 0.315789473684211
+Predictive measures: 
+MSE: 23.4101507328767
+MAE: 3.82089308071129
+MAPE: 1.94226062023034
+SMAPE: 0.814279921194672
+Pearson: 0.861961083573113
+Spearman: 0.752837684837685
+Kendall: 0.566318318318318
+R2: 0.742976909594535
+Features in simulation: 
+lagged(2, 1*(x4*x4))
+x3
+x4
+x2
+random2
+lagged(3, 1*x2)
+(x4*x4)
+p2(1*(p2(1*random2)*(x4*random1)))
+sin(1*lagged(3, 1*x2))
+sin(1*(x4*x4))
+mov_avg(10, 1*random2)
+lagged(1, 1*(x4*x4))
+sqroot(1*p2(1*(p2(1*random2)*(x4*random1))))
+p2(1*random2)
+sqroot(1*lagged(3, 1*x2))
+
+######################
+Simulation: 6
+Run time: 1.08090845346451
+Detective measures:
+Power: FALSE
+False positives 17
+True positives: 2
+False negatives: 2
+False discovery rate: 0.894736842105263
+Recall: 0.5
+Precision: 0.105263157894737
+F1-score: 0.173913043478261
+Predictive measures: 
+MSE: 23.424105691763
+MAE: 3.82332387480593
+MAPE: 1.90487558065439
+SMAPE: 0.804638251465842
+Pearson: 0.861872204150687
+Spearman: 0.754667998667999
+Kendall: 0.567731731731732
+R2: 0.742823696285473
+Features in simulation: 
+x3
+x4
+random2
+p2(1*lagged(1, 1*x4))
+lagged(2, 1*p2(1*x4))
+p2(1*x4)
+random1
+lagged(1, 1*x4)
+sqroot(1*x3)
+lagged(2, 1*x2)
+mov_avg(10, 1*x2)
+mov_avg(10, 1*random2)
+(x3*lagged(2, 1*x4))
+(lagged(2, 1*(x3*x4))*(x3*x4))
+sin(1*lagged(2, 1*(random1*(x*x3))))
+mov_avg(10, 1*(random2*x2))
+lagged(2, 1*(x3*x4))
+lagged(2, 1*(random1*(x*x3)))
+((random1*(x*x3))*lagged(2, 1*x2))
+
+######################
+Simulation: 7
+Run time: 57.0111796855927
+Detective measures:
+Power: FALSE
+False positives 15
+True positives: 3
+False negatives: 1
+False discovery rate: 0.833333333333333
+Recall: 0.75
+Precision: 0.166666666666667
+F1-score: 0.272727272727273
+Predictive measures: 
+MSE: 23.257746484667
+MAE: 3.82725504141903
+MAPE: 2.02503803351534
+SMAPE: 0.815685731090002
+Pearson: 0.862931153489336
+Spearman: 0.756860544860545
+Kendall: 0.568724724724725
+R2: 0.744650175662436
+Features in simulation: 
+lagged(3, 1*x4)
+x3
+x4
+random2
+(x3*mov_avg(10, 1*x2))
+sqroot(1*x3)
+lagged(2, 1*(x4*x4))
+lagged(1, 1*x2)
+lagged(3, 1*random2)
+lagged(3, 1*p2(1*x2))
+lagged(3, 1*x2)
+p2(1*(x3*mov_avg(10, 1*x2)))
+(lagged(3, 1*random2)*(x*x3))
+(sqroot(1*x4)*p2(1*x4))
+(x*x3)
+(lagged(3, 1*x4)*(x4*random2))
+sin(1*x4)
+(sin(1*x4)*sqroot(1*x3))
+
+######################
+Simulation: 8
+Run time: 57.6615223884583
+Detective measures:
+Power: FALSE
+False positives 21
+True positives: 3
+False negatives: 1
+False discovery rate: 0.875
+Recall: 0.75
+Precision: 0.125
+F1-score: 0.214285714285714
+Predictive measures: 
+MSE: 22.7347860824989
+MAE: 3.78753936875622
+MAPE: 2.02776582543358
+SMAPE: 0.816315545095078
+Pearson: 0.866251595255626
+Spearman: 0.758041598041598
+Kendall: 0.571087087087087
+R2: 0.750391825951606
+Features in simulation: 
+x3
+x4
+lagged(3, 1*x2)
+(lagged(2, 1*(x4*x3))*(x4*x3))
+p2(1*x4)
+(p2(1*lagged(2, 1*(x4*x3)))*x2)
+p2(1*lagged(2, 1*(x4*x3)))
+(lagged(2, 1*x4)*x3)
+sqroot(1*x3)
+mov_avg(20, 1*random2)
+lagged(1, 1*x2)
+lagged(2, 1*(x4*x3))
+(lagged(1, 1*x4)*x4)
+lagged(2, 1*p2(1*x4))
+sin(1*lagged(2, 1*x2))
+random2
+sqroot(1*random1)
+(x4*x2)
+lagged(1, 1*x4)
+lagged(3, 1*x4)
+p2(1*lagged(1, 1*x4))
+lagged(2, 1*x)
+p2(1*p2(1*x4))
+(mov_avg(20, 1*random2)*lagged(2, 1*(x4*x3)))
+
+######################
+Simulation: 9
+Run time: 1.02774908939997
+Detective measures:
+Power: FALSE
+False positives 18
+True positives: 3
+False negatives: 1
+False discovery rate: 0.857142857142857
+Recall: 0.75
+Precision: 0.142857142857143
+F1-score: 0.24
+Predictive measures: 
+MSE: 23.2838568688409
+MAE: 3.81272237154837
+MAPE: 1.98743436678579
+SMAPE: 0.815233461020344
+Pearson: 0.862765035428452
+Spearman: 0.757089889089889
+Kendall: 0.570026026026026
+R2: 0.744363506357799
+Features in simulation: 
+x3
+random2
+x
+x2
+sqroot(1*x3)
+lagged(2, 1*p2(1*x4))
+lagged(3, 1*x2)
+(x*x4)
+sin(1*lagged(3, 1*x2))
+(sin(1*x)*sin(1*x))
+(random2*sqroot(1*lagged(2, 1*x)))
+(random2*sin(1*p2(1*random1)))
+(x*x3)
+sin(1*mov_avg(20, 1*(random2*sin(1*p2(1*random1)))))
+lagged(2, 1*p2(1*x3))
+sqroot(1*random1)
+lagged(1, 1*x)
+(x4*x3)
+x4
+lagged(2, 1*x)
+(lagged(3, 1*x4)*sqroot(1*x3))
+
+######################
+Simulation: 10
+Run time: 58.4501411914825
+Detective measures:
+Power: FALSE
+False positives 14
+True positives: 3
+False negatives: 1
+False discovery rate: 0.823529411764706
+Recall: 0.75
+Precision: 0.176470588235294
+F1-score: 0.285714285714286
+Predictive measures: 
+MSE: 23.5801803465102
+MAE: 3.86122283738986
+MAPE: 1.94148714200146
+SMAPE: 0.824140177544083
+Pearson: 0.860877536299277
+Spearman: 0.749950745950746
+Kendall: 0.562642642642643
+R2: 0.7411101323467
+Features in simulation: 
+x3
+lagged(2, 1*(x4*x4))
+p2(1*x4)
+x4
+lagged(3, 1*x2)
+lagged(1, 1*x4)
+sin(1*p2(1*x4))
+x2
+random2
+sin(1*x4)
+mov_avg(20, 1*random2)
+lagged(1, 1*p2(1*x4))
+(lagged(3, 1*(x2*x))*lagged(3, 1*random1))
+(mov_avg(20, 1*random2)*random2)
+p2(1*random2)
+lagged(3, 1*random1)
+sqroot(1*lagged(3, 1*(x2*x)))
+
+######################
+Simulation: 11
+Run time: 1.08458313941956
+Detective measures:
+Power: FALSE
+False positives 14
+True positives: 3
+False negatives: 1
+False discovery rate: 0.823529411764706
+Recall: 0.75
+Precision: 0.176470588235294
+F1-score: 0.285714285714286
+Predictive measures: 
+MSE: 23.6749065156268
+MAE: 3.85178526833883
+MAPE: 1.99628847307146
+SMAPE: 0.803878292917716
+Pearson: 0.860273282982045
+Spearman: 0.751907875907876
+Kendall: 0.564696696696697
+R2: 0.740070121412706
+Features in simulation: 
+x3
+random2
+x4
+lagged(2, 1*p2(1*x4))
+p2(1*x4)
+lagged(3, 1*x2)
+sqroot(1*p2(1*lagged(1, 1*x4)))
+lagged(1, 1*x4)
+(random2*x4)
+lagged(3, 1*(random2*x4))
+p2(1*x3)
+lagged(1, 1*x2)
+lagged(3, 1*random2)
+sin(1*x4)
+mov_avg(20, 1*random2)
+(x2*p2(1*x3))
+x2
+
+######################
+Simulation: 12
+Run time: 1.07164400021235
+Detective measures:
+Power: FALSE
+False positives 15
+True positives: 3
+False negatives: 1
+False discovery rate: 0.833333333333333
+Recall: 0.75
+Precision: 0.166666666666667
+F1-score: 0.272727272727273
+Predictive measures: 
+MSE: 23.4247759740907
+MAE: 3.83389512586519
+MAPE: 1.93468612617143
+SMAPE: 0.819496936238617
+Pearson: 0.861867980846743
+Spearman: 0.754184458184458
+Kendall: 0.566146146146146
+R2: 0.742816337168597
+Features in simulation: 
+(x4*x4)
+lagged(1, 1*x4)
+x3
+x4
+lagged(3, 1*x2)
+lagged(1, 1*x2)
+p2(1*lagged(2, 1*x4))
+random2
+lagged(2, 1*p2(1*x3))
+(lagged(1, 1*x4)*x4)
+sin(1*sqroot(1*x3))
+sin(1*lagged(3, 1*x2))
+lagged(3, 1*sin(1*sqroot(1*x3)))
+sin(1*x4)
+x
+lagged(3, 1*p2(1*x2))
+p2(1*lagged(1, 1*x2))
+lagged(2, 1*random2)
+
+######################
+Simulation: 13
+Run time: 1.03939441839854
+Detective measures:
+Power: FALSE
+False positives 14
+True positives: 2
+False negatives: 2
+False discovery rate: 0.875
+Recall: 0.5
+Precision: 0.125
+F1-score: 0.2
+Predictive measures: 
+MSE: 23.1333394625418
+MAE: 3.82075122332238
+MAPE: 1.93082309771422
+SMAPE: 0.812132342867875
+Pearson: 0.863722210286906
+Spearman: 0.759157323157323
+Kendall: 0.571115115115115
+R2: 0.746016056542898
+Features in simulation: 
+x4
+random2
+p2(1*x4)
+x3
+lagged(3, 1*sqroot(1*x2))
+lagged(3, 1*random2)
+lagged(3, 1*x4)
+lagged(2, 1*p2(1*x4))
+lagged(1, 1*x2)
+sqroot(1*x3)
+(sqroot(1*lagged(3, 1*x2))*lagged(3, 1*x2))
+((lagged(3, 1*x2)*mov_avg(10, 1*sin(1*x3)))*random1)
+(x4*mov_avg(20, 1*x4))
+(p2(1*x4)*lagged(3, 1*sqroot(1*x3)))
+lagged(1, 1*(x2*x4))
+((lagged(2, 1*sin(1*x3))*lagged(3, 1*x2))*x4)
+
+######################
+Simulation: 14
+Run time: 1.02155260245005
+Detective measures:
+Power: FALSE
+False positives 11
+True positives: 3
+False negatives: 1
+False discovery rate: 0.785714285714286
+Recall: 0.75
+Precision: 0.214285714285714
+F1-score: 0.333333333333333
+Predictive measures: 
+MSE: 23.566311765098
+MAE: 3.84761779858425
+MAPE: 1.96006393853682
+SMAPE: 0.807493334583601
+Pearson: 0.860965969012801
+Spearman: 0.753589797589798
+Kendall: 0.566294294294294
+R2: 0.741262397306237
+Features in simulation: 
+p2(1*x4)
+x4
+random2
+sin(1*x4)
+x3
+sqroot(1*x3)
+mov_avg(20, 1*random2)
+lagged(3, 1*x2)
+lagged(3, 1*x4)
+(random1*x3)
+sqroot(1*lagged(1, 1*p2(1*x4)))
+lagged(2, 1*p2(1*x4))
+p2(1*mov_avg(20, 1*random2))
+lagged(1, 1*x2)
+
+######################
+Simulation: 15
+Run time: 1.04065549770991
+Detective measures:
+Power: FALSE
+False positives 13
+True positives: 3
+False negatives: 1
+False discovery rate: 0.8125
+Recall: 0.75
+Precision: 0.1875
+F1-score: 0.3
+Predictive measures: 
+MSE: 23.609281564363
+MAE: 3.83895493136787
+MAPE: 1.97759827486346
+SMAPE: 0.814560442641898
+Pearson: 0.860691946221186
+Spearman: 0.753061725061725
+Kendall: 0.565521521521521
+R2: 0.740790626290013
+Features in simulation: 
+x2
+x3
+lagged(3, 1*x4)
+random2
+x4
+lagged(2, 1*(x4*x4))
+mov_avg(10, 1*random2)
+sin(1*lagged(3, 1*x2))
+lagged(3, 1*x2)
+p2(1*(x4*x4))
+(x4*random2)
+p2(1*x3)
+lagged(2, 1*p2(1*x3))
+mov_avg(10, 1*x3)
+(random2*lagged(1, 1*x3))
+lagged(3, 1*(x4*random2))
+
+######################
+Simulation: 16
+Run time: 1.03305224577586
+Detective measures:
+Power: FALSE
+False positives 18
+True positives: 3
+False negatives: 1
+False discovery rate: 0.857142857142857
+Recall: 0.75
+Precision: 0.142857142857143
+F1-score: 0.24
+Predictive measures: 
+MSE: 23.2813200261915
+MAE: 3.81900372481084
+MAPE: 1.9804839418767
+SMAPE: 0.803246230198831
+Pearson: 0.862781176593042
+Spearman: 0.756804492804493
+Kendall: 0.570062062062062
+R2: 0.744391358683274
+Features in simulation: 
+x4
+random2
+x3
+p2(1*lagged(2, 1*x4))
+p2(1*x3)
+(x4*x4)
+lagged(1, 1*p2(1*x4))
+lagged(3, 1*sin(1*x2))
+lagged(3, 1*x2)
+(random2*(x2*x2))
+p2(1*(x3*x3))
+sqroot(1*mov_avg(10, 1*(x4*random2)))
+sqroot(1*sin(1*x))
+p2(1*x)
+sqroot(1*x)
+x2
+((x3*x3)*x2)
+lagged(2, 1*x)
+lagged(3, 1*sqroot(1*sin(1*x)))
+sin(1*random2)
+sin(1*p2(1*x4))
+
+######################
+Simulation: 17
+Run time: 1.04907161792119
+Detective measures:
+Power: FALSE
+False positives 13
+True positives: 4
+False negatives: 0
+False discovery rate: 0.764705882352941
+Recall: 1
+Precision: 0.235294117647059
+F1-score: 0.380952380952381
+Predictive measures: 
+MSE: 23.3154969420645
+MAE: 3.80531358787268
+MAPE: 1.96027299092065
+SMAPE: 0.800433922664163
+Pearson: 0.862563693841232
+Spearman: 0.757867645867646
+Kendall: 0.571015015015015
+R2: 0.744016125877708
+Features in simulation: 
+x3
+random2
+x4
+p2(1*x4)
+lagged(3, 1*x2)
+lagged(2, 1*p2(1*x4))
+sqroot(1*x3)
+mov_avg(10, 1*random2)
+p2(1*lagged(1, 1*x4))
+mov_avg(10, 1*x)
+sqroot(1*p2(1*sin(1*mov_avg(10, 1*x))))
+p2(1*mov_avg(10, 1*x))
+sin(1*lagged(3, 1*x2))
+lagged(1, 1*x2)
+lagged(1, 1*x4)
+sqroot(1*lagged(3, 1*sqroot(1*sqroot(1*x3))))
+sqroot(1*lagged(3, 1*x2))
+
+######################
+Simulation: 18
+Run time: 58.4935855865479
+Detective measures:
+Power: FALSE
+False positives 14
+True positives: 3
+False negatives: 1
+False discovery rate: 0.823529411764706
+Recall: 0.75
+Precision: 0.176470588235294
+F1-score: 0.285714285714286
+Predictive measures: 
+MSE: 23.4368393912827
+MAE: 3.84273632763395
+MAPE: 2.07378089550782
+SMAPE: 0.812365700455621
+Pearson: 0.861791094953918
+Spearman: 0.754281466281466
+Kendall: 0.566594594594594
+R2: 0.742683891341874
+Features in simulation: 
+x3
+x4
+random2
+lagged(1, 1*x2)
+x
+p2(1*x4)
+sin(1*(x4*x4))
+lagged(3, 1*x2)
+lagged(2, 1*p2(1*x4))
+sqroot(1*x3)
+sin(1*x4)
+sin(1*x)
+sin(1*random2)
+p2(1*(x3*mov_avg(10, 1*x2)))
+lagged(1, 1*sin(1*(x4*x4)))
+mov_avg(10, 1*random2)
+(mov_avg(10, 1*random2)*(x3*mov_avg(10, 1*x2)))
+
+######################
+Simulation: 19
+Run time: 58.5270938873291
+Detective measures:
+Power: FALSE
+False positives 15
+True positives: 3
+False negatives: 1
+False discovery rate: 0.833333333333333
+Recall: 0.75
+Precision: 0.166666666666667
+F1-score: 0.272727272727273
+Predictive measures: 
+MSE: 23.4399091042943
+MAE: 3.8433561228464
+MAPE: 1.98113496717362
+SMAPE: 0.824902271064615
+Pearson: 0.861771541170859
+Spearman: 0.754343086343086
+Kendall: 0.567431431431431
+R2: 0.742650188563369
+Features in simulation: 
+x3
+random2
+lagged(3, 1*sqroot(1*x2))
+mov_avg(10, 1*random2)
+sin(1*x4)
+lagged(2, 1*random1)
+sin(1*sin(1*x4))
+lagged(1, 1*x2)
+lagged(3, 1*x2)
+p2(1*x4)
+lagged(2, 1*p2(1*x4))
+sin(1*(x4*x4))
+sin(1*lagged(2, 1*random1))
+p2(1*sin(1*x))
+x
+(random2*((sin(1*x3)*mov_avg(20, 1*x2))*random2))
+mov_avg(10, 1*sin(1*sin(1*x4)))
+x4
+
+######################
+Simulation: 20
+Run time: 58.2566387653351
+Detective measures:
+Power: FALSE
+False positives 12
+True positives: 3
+False negatives: 1
+False discovery rate: 0.8
+Recall: 0.75
+Precision: 0.2
+F1-score: 0.315789473684211
+Predictive measures: 
+MSE: 23.5330287799256
+MAE: 3.84098878777818
+MAPE: 2.01787135789284
+SMAPE: 0.818302595870528
+Pearson: 0.861178155511591
+Spearman: 0.754148998148998
+Kendall: 0.566358358358358
+R2: 0.741627815530346
+Features in simulation: 
+x3
+x4
+mov_avg(20, 1*random2)
+random2
+lagged(3, 1*x2)
+sin(1*lagged(3, 1*x2))
+p2(1*x3)
+lagged(3, 1*x4)
+sin(1*p2(1*x4))
+p2(1*p2(1*x3))
+p2(1*p2(1*p2(1*x4)))
+lagged(2, 1*p2(1*x4))
+(lagged(3, 1*x2)*p2(1*x3))
+(random2*x2)
+x2

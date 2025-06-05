@@ -1,0 +1,51 @@
+Mean squared error statistics:
+Mean: 68.4446980150064
+Standard deviation: NA
+Best: 68.4446980150064
+Worst: 68.4446980150064
+Mean absolute error statistics:
+Mean: 6.60877533916163
+Standard deviation: NA
+Best: 6.60877533916163
+Worst: 6.60877533916163
+Mean absolute percentage error statistics:
+Mean: 2.07806454419048
+Standard deviation: NA
+Best: 2.07806454419048
+Worst: 2.07806454419048
+Symmetric mean absolute percentage error statistics:
+Mean: 0.713987498139554
+Standard deviation: NA
+Best: 0.713987498139554
+Worst: 0.713987498139554
+R^2 statistics:
+Mean: 0.442520075078086
+Standard deviation: NA
+Best: 0.442520075078086
+Worst: 0.442520075078086
+Pearson's correlation statistics:
+Mean: 0.71980700568635
+Standard deviation: NA
+Best: 0.71980700568635
+Worst: 0.71980700568635
+Spearman's correlation statistics:
+Mean: 0.6401200120012
+Standard deviation: NA
+Best: 0.6401200120012
+Worst: 0.6401200120012
+Kendall's correlation statistics:
+Mean: 0.467474747474747
+Standard deviation: NA
+Best: 0.467474747474747
+Worst: 0.467474747474747
+
+######################
+Predictive measures: 
+MSE: 68.4446980150064
+MAE: 6.60877533916163
+MAPE: 2.07806454419048
+SMAPE: 0.713987498139554
+Pearson: 0.71980700568635
+Spearman: 0.6401200120012
+Kendall: 0.467474747474747
+R2: 0.442520075078086

@@ -1,0 +1,672 @@
+Total run time:  162.570131790638
+ar_par: 0.9
+ar_sd: 1
+ar_tr: 0.1
+N.init:  100
+N.final:  100
+Populations:  1
+Noise SD:  1
+Threshold:  0.5
+Simulations:  20
+Threshold:  0.5
+Parallel:  FALSE
+Runs:  1
+Cores:  1
+Marginal likelihood method:  inla
+Add lagged response:  FALSE
+Seed:  100
+
+#######################
+Power statistics:
+Mean: 0.25
+Standard deviation: 0.444261658319319
+Best: FALSE
+Worst: TRUE
+False positives statistics:
+Mean: 0.5
+Standard deviation: 0.512989176042577
+Best: 0
+Worst: 1
+True positives statistics:
+Mean: 4.75
+Standard deviation: 0.444261658319319
+Best: 4
+Worst: 5
+False negatives statistics:
+Mean: 0.25
+Standard deviation: 0.444261658319319
+Best: 0
+Worst: 1
+False discovery rate statistics:
+Mean: 0.0833333333333333
+Standard deviation: 0.0854981960070962
+Best: 0
+Worst: 0.166666666666667
+Recall statistics:
+Mean: 0.95
+Standard deviation: 0.0888523316638638
+Best: 0.8
+Worst: 1
+Precision statistics:
+Mean: 0.916666666666667
+Standard deviation: 0.0854981960070962
+Best: 0.833333333333333
+Worst: 1
+F1-score statistics:
+Mean: 0.926767676767677
+Standard deviation: 0.044196665652294
+Best: 0.888888888888889
+Worst: 1
+Mean squared error statistics:
+Mean: 0.570524801759471
+Standard deviation: 0.137500418996427
+Best: 3.18222454017256e-05
+Worst: 0.721642302977115
+Mean absolute error statistics:
+Mean: 0.590888886080291
+Standard deviation: 0.138168929171308
+Best: 0.00452316118476327
+Worst: 0.642421379841964
+Mean absolute percentage error statistics:
+Mean: 0.495467081073376
+Standard deviation: 0.117235676667244
+Best: 0.00386994069187629
+Worst: 0.587060035194411
+Symmetric mean absolute percentage error statistics:
+Mean: 0.331689497056261
+Standard deviation: 0.077716864923098
+Best: 0.00383825111926012
+Worst: 0.374019872422442
+R^2 statistics:
+Mean: 0.961850860808944
+Standard deviation: 0.00919420611855302
+Best: 0.951746124660091
+Worst: 0.999997872149878
+Pearson's correlation statistics:
+Mean: 0.981314642151605
+Standard deviation: 0.00449642171130487
+Best: 0.976510855990313
+Worst: 0.999999075752571
+Spearman's correlation statistics:
+Mean: 0.979596759675968
+Standard deviation: 0.00483737914933875
+Best: 0.976225622562256
+Worst: 0.99998799879988
+Kendall's correlation statistics:
+Mean: 0.882686868686869
+Standard deviation: 0.0275659975756431
+Best: 0.872323232323232
+Worst: 0.99959595959596
+Detections:
+x: 19
+x2: 19
+x3: 20
+x4: 18
+f(ind, model = "ar1"): 19
+random2: 8
+random1: 2
+
+######################
+Simulation: 1
+Run time: 11.818921148777
+Detective measures:
+Power: TRUE
+False positives 0
+True positives: 5
+False negatives: 0
+False discovery rate: 0
+Recall: 1
+Precision: 1
+F1-score: 1
+Predictive measures: 
+MSE: 0.58163702072464
+MAE: 0.616749588465582
+MAPE: 0.510349783433956
+SMAPE: 0.339740573411009
+Pearson: 0.980919583598105
+Spearman: 0.978997899789979
+Kendall: 0.877171717171717
+R2: 0.961107822843344
+Features in simulation: 
+x3
+f(ind, model = "ar1")
+x2
+x4
+x
+
+######################
+Simulation: 2
+Run time: 3.90410774946213
+Detective measures:
+Power: FALSE
+False positives 1
+True positives: 5
+False negatives: 0
+False discovery rate: 0.166666666666667
+Recall: 1
+Precision: 0.833333333333333
+F1-score: 0.909090909090909
+Predictive measures: 
+MSE: 0.595455140926294
+MAE: 0.623799608778495
+MAPE: 0.515632072011651
+SMAPE: 0.345280256094957
+Pearson: 0.98045339749275
+Spearman: 0.978865886588659
+Kendall: 0.877171717171717
+R2: 0.960183850056699
+Features in simulation: 
+x2
+x3
+f(ind, model = "ar1")
+x
+random2
+x4
+
+######################
+Simulation: 3
+Run time: 7.3443563302358
+Detective measures:
+Power: FALSE
+False positives 1
+True positives: 5
+False negatives: 0
+False discovery rate: 0.166666666666667
+Recall: 1
+Precision: 0.833333333333333
+F1-score: 0.909090909090909
+Predictive measures: 
+MSE: 0.589227995256535
+MAE: 0.617208985918633
+MAPE: 0.527793567420567
+SMAPE: 0.348041970925475
+Pearson: 0.980706749340042
+Spearman: 0.978553855385539
+Kendall: 0.876767676767677
+R2: 0.960600239048354
+Features in simulation: 
+x2
+x3
+f(ind, model = "ar1")
+x4
+random2
+x
+
+######################
+Simulation: 4
+Run time: 13.9275757670403
+Detective measures:
+Power: FALSE
+False positives 1
+True positives: 5
+False negatives: 0
+False discovery rate: 0.166666666666667
+Recall: 1
+Precision: 0.833333333333333
+F1-score: 0.909090909090909
+Predictive measures: 
+MSE: 0.59719087376109
+MAE: 0.624950855977245
+MAPE: 0.516100138342712
+SMAPE: 0.345551099539134
+Pearson: 0.980402160707965
+Spearman: 0.978469846984698
+Kendall: 0.875959595959596
+R2: 0.960067787243463
+Features in simulation: 
+x3
+x4
+f(ind, model = "ar1")
+x2
+x
+random2
+
+######################
+Simulation: 5
+Run time: 8.20556758244832
+Detective measures:
+Power: FALSE
+False positives 1
+True positives: 5
+False negatives: 0
+False discovery rate: 0.166666666666667
+Recall: 1
+Precision: 0.833333333333333
+F1-score: 0.909090909090909
+Predictive measures: 
+MSE: 0.595200873333945
+MAE: 0.617630331824956
+MAPE: 0.532798471612894
+SMAPE: 0.349717443396528
+Pearson: 0.980460739836822
+Spearman: 0.978241824182418
+Kendall: 0.875555555555556
+R2: 0.960200852104187
+Features in simulation: 
+x2
+x3
+f(ind, model = "ar1")
+x
+random1
+x4
+
+######################
+Simulation: 6
+Run time: 7.85433363517125
+Detective measures:
+Power: FALSE
+False positives 0
+True positives: 4
+False negatives: 1
+False discovery rate: 0
+Recall: 0.8
+Precision: 1
+F1-score: 0.888888888888889
+Predictive measures: 
+MSE: 0.593090520754441
+MAE: 0.616597666923081
+MAPE: 0.533669199205204
+SMAPE: 0.349914676035863
+Pearson: 0.980532396864264
+Spearman: 0.978361836183618
+Kendall: 0.875555555555556
+R2: 0.960341964522174
+Features in simulation: 
+x3
+x
+f(ind, model = "ar1")
+x2
+
+######################
+Simulation: 7
+Run time: 9.14105113347371
+Detective measures:
+Power: TRUE
+False positives 0
+True positives: 5
+False negatives: 0
+False discovery rate: 0
+Recall: 1
+Precision: 1
+F1-score: 1
+Predictive measures: 
+MSE: 0.59553222652423
+MAE: 0.623948834930113
+MAPE: 0.515863288548606
+SMAPE: 0.34521042901381
+Pearson: 0.980447152319145
+Spearman: 0.978745874587459
+Kendall: 0.877171717171717
+R2: 0.960178695593307
+Features in simulation: 
+x4
+x3
+x
+f(ind, model = "ar1")
+x2
+
+######################
+Simulation: 8
+Run time: 7.37284128665924
+Detective measures:
+Power: FALSE
+False positives 1
+True positives: 5
+False negatives: 0
+False discovery rate: 0.166666666666667
+Recall: 1
+Precision: 0.833333333333333
+F1-score: 0.909090909090909
+Predictive measures: 
+MSE: 0.597294045829855
+MAE: 0.625060389737299
+MAPE: 0.51606854508398
+SMAPE: 0.345569789968566
+Pearson: 0.980398592880611
+Spearman: 0.978469846984698
+Kendall: 0.875959595959596
+R2: 0.960060888462552
+Features in simulation: 
+x3
+f(ind, model = "ar1")
+x4
+x
+x2
+random2
+
+######################
+Simulation: 9
+Run time: 10.9952887336413
+Detective measures:
+Power: FALSE
+False positives 0
+True positives: 4
+False negatives: 1
+False discovery rate: 0
+Recall: 0.8
+Precision: 1
+F1-score: 0.888888888888889
+Predictive measures: 
+MSE: 3.18222454017256e-05
+MAE: 0.00452316118476327
+MAPE: 0.00386994069187629
+SMAPE: 0.00383825111926012
+Pearson: 0.999999075752571
+Spearman: 0.99998799879988
+Kendall: 0.99959595959596
+R2: 0.999997872149878
+Features in simulation: 
+x3
+x2
+f(ind, model = "ar1")
+x
+
+######################
+Simulation: 10
+Run time: 13.0279236316681
+Detective measures:
+Power: FALSE
+False positives 1
+True positives: 5
+False negatives: 0
+False discovery rate: 0.166666666666667
+Recall: 1
+Precision: 0.833333333333333
+F1-score: 0.909090909090909
+Predictive measures: 
+MSE: 0.589739255099371
+MAE: 0.614678151345425
+MAPE: 0.530850082681412
+SMAPE: 0.3485274667044
+Pearson: 0.980641057128063
+Spearman: 0.978445844584458
+Kendall: 0.875959595959596
+R2: 0.960566052764345
+Features in simulation: 
+x3
+f(ind, model = "ar1")
+x4
+x
+random1
+x2
+
+######################
+Simulation: 11
+Run time: 3.53566389878591
+Detective measures:
+Power: FALSE
+False positives 0
+True positives: 4
+False negatives: 1
+False discovery rate: 0
+Recall: 0.8
+Precision: 1
+F1-score: 0.888888888888889
+Predictive measures: 
+MSE: 0.721642302977115
+MAE: 0.642421379841964
+MAPE: 0.494870067209863
+SMAPE: 0.373889635316217
+Pearson: 0.976510855990313
+Spearman: 0.976225622562256
+Kendall: 0.872323232323232
+R2: 0.951746124660091
+Features in simulation: 
+x4
+x2
+x3
+f(ind, model = "ar1")
+
+######################
+Simulation: 12
+Run time: 10.1295938849449
+Detective measures:
+Power: FALSE
+False positives 0
+True positives: 4
+False negatives: 1
+False discovery rate: 0
+Recall: 0.8
+Precision: 1
+F1-score: 0.888888888888889
+Predictive measures: 
+MSE: 0.608448750471194
+MAE: 0.626517356447065
+MAPE: 0.537897851787109
+SMAPE: 0.353100245676288
+Pearson: 0.980038464110876
+Spearman: 0.978265826582658
+Kendall: 0.875555555555556
+R2: 0.959315009617872
+Features in simulation: 
+x3
+x4
+x
+x2
+
+######################
+Simulation: 13
+Run time: 9.88902023235957
+Detective measures:
+Power: TRUE
+False positives 0
+True positives: 5
+False negatives: 0
+False discovery rate: 0
+Recall: 1
+Precision: 1
+F1-score: 1
+Predictive measures: 
+MSE: 0.584653115329953
+MAE: 0.615476428902692
+MAPE: 0.587060035194411
+SMAPE: 0.374019872422442
+Pearson: 0.981056533698435
+Spearman: 0.978385838583858
+Kendall: 0.881616161616162
+R2: 0.960906146399907
+Features in simulation: 
+x3
+f(ind, model = "ar1")
+x
+x4
+x2
+
+######################
+Simulation: 14
+Run time: 2.35323094924291
+Detective measures:
+Power: TRUE
+False positives 0
+True positives: 5
+False negatives: 0
+False discovery rate: 0
+Recall: 1
+Precision: 1
+F1-score: 1
+Predictive measures: 
+MSE: 0.581547486316599
+MAE: 0.616584446096458
+MAPE: 0.510094264261552
+SMAPE: 0.339705908738981
+Pearson: 0.980925291327092
+Spearman: 0.978997899789979
+Kendall: 0.877171717171717
+R2: 0.961113809718208
+Features in simulation: 
+x2
+x4
+x3
+f(ind, model = "ar1")
+x
+
+######################
+Simulation: 15
+Run time: 12.2945597489675
+Detective measures:
+Power: FALSE
+False positives 0
+True positives: 4
+False negatives: 1
+False discovery rate: 0
+Recall: 0.8
+Precision: 1
+F1-score: 0.888888888888889
+Predictive measures: 
+MSE: 0.597797480008067
+MAE: 0.625540835769961
+MAPE: 0.51806049261313
+SMAPE: 0.346620080595867
+Pearson: 0.980388209580123
+Spearman: 0.978637863786379
+Kendall: 0.876363636363636
+R2: 0.960027225455301
+Features in simulation: 
+x4
+x3
+x
+f(ind, model = "ar1")
+
+######################
+Simulation: 16
+Run time: 4.0536594470342
+Detective measures:
+Power: FALSE
+False positives 1
+True positives: 5
+False negatives: 0
+False discovery rate: 0.166666666666667
+Recall: 1
+Precision: 0.833333333333333
+F1-score: 0.909090909090909
+Predictive measures: 
+MSE: 0.610448437085408
+MAE: 0.615264832798306
+MAPE: 0.500102434952513
+SMAPE: 0.347930944574646
+Pearson: 0.98020262790161
+Spearman: 0.979189918991899
+Kendall: 0.877171717171717
+R2: 0.959181297073301
+Features in simulation: 
+x4
+x3
+f(ind, model = "ar1")
+x2
+x
+random2
+
+######################
+Simulation: 17
+Run time: 10.7180744171143
+Detective measures:
+Power: TRUE
+False positives 0
+True positives: 5
+False negatives: 0
+False discovery rate: 0
+Recall: 1
+Precision: 1
+F1-score: 1
+Predictive measures: 
+MSE: 0.581613255418855
+MAE: 0.616619494785899
+MAPE: 0.510120093168331
+SMAPE: 0.339729476191771
+Pearson: 0.980923049369777
+Spearman: 0.978997899789979
+Kendall: 0.877171717171717
+R2: 0.961109411952101
+Features in simulation: 
+x3
+x4
+x2
+f(ind, model = "ar1")
+x
+
+######################
+Simulation: 18
+Run time: 5.85585730075836
+Detective measures:
+Power: FALSE
+False positives 1
+True positives: 5
+False negatives: 0
+False discovery rate: 0.166666666666667
+Recall: 1
+Precision: 0.833333333333333
+F1-score: 0.909090909090909
+Predictive measures: 
+MSE: 0.598737221088646
+MAE: 0.626113462845636
+MAPE: 0.517988363788008
+SMAPE: 0.34689418786688
+Pearson: 0.980364870375143
+Spearman: 0.978637863786379
+Kendall: 0.876363636363636
+R2: 0.959964388023561
+Features in simulation: 
+random2
+x3
+x4
+f(ind, model = "ar1")
+x
+x2
+
+######################
+Simulation: 19
+Run time: 5.82735211451848
+Detective measures:
+Power: FALSE
+False positives 1
+True positives: 5
+False negatives: 0
+False discovery rate: 0.166666666666667
+Recall: 1
+Precision: 0.833333333333333
+F1-score: 0.909090909090909
+Predictive measures: 
+MSE: 0.593038811616413
+MAE: 0.622667121165999
+MAPE: 0.514373634627528
+SMAPE: 0.344650390664181
+Pearson: 0.980541788594534
+Spearman: 0.978865886588659
+Kendall: 0.877171717171717
+R2: 0.96034542214417
+Features in simulation: 
+x3
+random2
+x2
+f(ind, model = "ar1")
+x
+x4
+
+######################
+Simulation: 20
+Run time: 4.32115279833476
+Detective measures:
+Power: FALSE
+False positives 1
+True positives: 5
+False negatives: 0
+False discovery rate: 0.166666666666667
+Recall: 1
+Precision: 0.833333333333333
+F1-score: 0.909090909090909
+Predictive measures: 
+MSE: 0.598169400421362
+MAE: 0.625424787866255
+MAPE: 0.515779294832211
+SMAPE: 0.345857242868943
+Pearson: 0.980380246163856
+Spearman: 0.978589858985899
+Kendall: 0.875959595959596
+R2: 0.960002356346069
+Features in simulation: 
+x4
+random2
+x3
+f(ind, model = "ar1")
+x
+x2
