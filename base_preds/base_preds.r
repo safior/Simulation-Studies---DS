@@ -47,7 +47,7 @@ for (i in 1:length(error_noises)) {
   pred_measures(y_true, list(predictions), filename)
 }
 
-# n <- 1001 # Tables in thesis from below code were generated with n <- 101
+# n <- 1001 # Tables in thesis created with below code were generated with n <- 101
 for (i in 1:length(error_noises)) {
   noise_sd <- error_noises[i]
   data <- create_iid_simple(n=n+lw+ma, ar_par = ar_par, ar_trend = ar_tr, ar_sd = ar_sd, 

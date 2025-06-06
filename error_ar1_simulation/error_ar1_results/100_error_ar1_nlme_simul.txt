@@ -1,0 +1,587 @@
+Total run time:  139.067837826411
+ar_par: 0.9
+ar_sd: 1
+ar_tr: 0.1
+N.init:  100
+N.final:  100
+Populations:  50
+Noise SD:  100
+Threshold:  0.5
+Simulations:  20
+Threshold:  0.5
+Parallel:  TRUE
+Runs:  30
+Cores:  30
+Add lagged response:  FALSE
+Seed:  100
+
+#######################
+Power statistics:
+Mean: 0
+Standard deviation: 0
+Best: FALSE
+Worst: FALSE
+False positives statistics:
+Mean: 0
+Standard deviation: 0
+Best: 0
+Worst: 0
+True positives statistics:
+Mean: 1
+Standard deviation: 0
+Best: 1
+Worst: 1
+False negatives statistics:
+Mean: 4
+Standard deviation: 0
+Best: 4
+Worst: 4
+False discovery rate statistics:
+Mean: 0
+Standard deviation: 0
+Best: 0
+Worst: 0
+Recall statistics:
+Mean: 0.2
+Standard deviation: 0
+Best: 0.2
+Worst: 0.2
+Precision statistics:
+Mean: 1
+Standard deviation: 0
+Best: 1
+Worst: 1
+F1-score statistics:
+Mean: 0.333333333333333
+Standard deviation: 0
+Best: 0.333333333333333
+Worst: 0.333333333333333
+Mean squared error statistics:
+Mean: 35839.6315622229
+Standard deviation: 54.2655552965671
+Best: 35762.3022061851
+Worst: 35976.6595869063
+Mean absolute error statistics:
+Mean: 159.398292997337
+Standard deviation: 0.154998653735714
+Best: 159.187643854036
+Worst: 159.800060430528
+Mean absolute percentage error statistics:
+Mean: 6.0892618149578
+Standard deviation: 0.0153176360847686
+Best: 6.06760567542578
+Worst: 6.1264369162303
+Symmetric mean absolute percentage error statistics:
+Mean: 1.01026090278557
+Standard deviation: 0.000481191437572199
+Best: 1.00965194735302
+Worst: 1.01159532853389
+R^2 statistics:
+Mean: -0.00427215369158099
+Standard deviation: 0.00152059002041736
+Best: -0.0081118535843081
+Worst: -0.00210528657976861
+Pearson's correlation statistics:
+Mean: -0.194501576634895
+Standard deviation: 0.0476849584521496
+Best: -0.225963316930903
+Worst: -0.0325902324776378
+Spearman's correlation statistics:
+Mean: -0.190231623162316
+Standard deviation: 0.0446746322248571
+Best: -0.215733573357336
+Worst: -0.0284548454845485
+Kendall's correlation statistics:
+Mean: -0.121232323232323
+Standard deviation: 0.0311406406527839
+Best: -0.13979797979798
+Worst: -0.021010101010101
+Detections:
+mov_avg(10, 1*x): 0
+lagged(3, 1*x2): 0
+x3: 0
+p2(1*lagged(2, 1*x4)): 0
+lagged(2, 1*p2(1*x4)): 0
+lagged(2, 1*(x4*x4)): 0
+(lagged(2, 1*x4)*lagged(2, 1*x4)): 0
+corARMA(form = ~ind, value=0.9, p=1, q=0, fixed=TRUE): 20
+
+######################
+Simulation: 1
+Run time: 6.86868146260579
+Detective measures:
+Power: FALSE
+False positives 0
+True positives: 1
+False negatives: 4
+False discovery rate: 0
+Recall: 0.2
+Precision: 1
+F1-score: 0.333333333333333
+Predictive measures: 
+MSE: 35833.8731889179
+MAE: 159.374948342192
+MAPE: 6.08913306474307
+SMAPE: 1.0101537270795
+Pearson: -0.217965128391858
+Spearman: -0.203900390039004
+Kendall: -0.132121212121212
+R2: -0.00411079673257464
+Features in simulation: 
+corARMA(form = ~ind, value=0.9, p=1, q=0, fixed=TRUE)
+
+######################
+Simulation: 2
+Run time: 6.56521861553192
+Detective measures:
+Power: FALSE
+False positives 0
+True positives: 1
+False negatives: 4
+False discovery rate: 0
+Recall: 0.2
+Precision: 1
+F1-score: 0.333333333333333
+Predictive measures: 
+MSE: 35832.5864288003
+MAE: 159.369720068478
+MAPE: 6.08404437770848
+SMAPE: 1.01015990146033
+Pearson: -0.222042157603093
+Spearman: -0.211065106510651
+Kendall: -0.135353535353535
+R2: -0.00407474007411346
+Features in simulation: 
+corARMA(form = ~ind, value=0.9, p=1, q=0, fixed=TRUE)
+
+######################
+Simulation: 3
+Run time: 7.21904152234395
+Detective measures:
+Power: FALSE
+False positives 0
+True positives: 1
+False negatives: 4
+False discovery rate: 0
+Recall: 0.2
+Precision: 1
+F1-score: 0.333333333333333
+Predictive measures: 
+MSE: 35792.9022544726
+MAE: 159.261296816935
+MAPE: 6.06760567542578
+SMAPE: 1.00989842222056
+Pearson: -0.168963574570065
+Spearman: -0.181314131413141
+Kendall: -0.108282828282828
+R2: -0.00296273893229437
+Features in simulation: 
+corARMA(form = ~ind, value=0.9, p=1, q=0, fixed=TRUE)
+
+######################
+Simulation: 4
+Run time: 6.82585124572118
+Detective measures:
+Power: FALSE
+False positives 0
+True positives: 1
+False negatives: 4
+False discovery rate: 0
+Recall: 0.2
+Precision: 1
+F1-score: 0.333333333333333
+Predictive measures: 
+MSE: 35797.7719144973
+MAE: 159.27740640043
+MAPE: 6.07565652263782
+SMAPE: 1.00991142484084
+Pearson: -0.207268348904724
+Spearman: -0.207128712871287
+Kendall: -0.134949494949495
+R2: -0.00309919301252992
+Features in simulation: 
+corARMA(form = ~ind, value=0.9, p=1, q=0, fixed=TRUE)
+
+######################
+Simulation: 5
+Run time: 6.74611082474391
+Detective measures:
+Power: FALSE
+False positives 0
+True positives: 1
+False negatives: 4
+False discovery rate: 0
+Recall: 0.2
+Precision: 1
+F1-score: 0.333333333333333
+Predictive measures: 
+MSE: 35827.0444598786
+MAE: 159.356587580338
+MAPE: 6.09082533745745
+SMAPE: 1.01007447184822
+Pearson: -0.210691122868207
+Spearman: -0.203900390039004
+Kendall: -0.134141414141414
+R2: -0.00391944704173386
+Features in simulation: 
+corARMA(form = ~ind, value=0.9, p=1, q=0, fixed=TRUE)
+
+######################
+Simulation: 6
+Run time: 6.75232075452805
+Detective measures:
+Power: FALSE
+False positives 0
+True positives: 1
+False negatives: 4
+False discovery rate: 0
+Recall: 0.2
+Precision: 1
+F1-score: 0.333333333333333
+Predictive measures: 
+MSE: 35976.6595869063
+MAE: 159.800060430528
+MAPE: 6.1264369162303
+SMAPE: 1.01159532853389
+Pearson: -0.200712597206877
+Spearman: -0.201212121212121
+Kendall: -0.135757575757576
+R2: -0.0081118535843081
+Features in simulation: 
+corARMA(form = ~ind, value=0.9, p=1, q=0, fixed=TRUE)
+
+######################
+Simulation: 7
+Run time: 7.0140128215154
+Detective measures:
+Power: FALSE
+False positives 0
+True positives: 1
+False negatives: 4
+False discovery rate: 0
+Recall: 0.2
+Precision: 1
+F1-score: 0.333333333333333
+Predictive measures: 
+MSE: 35922.0638424496
+MAE: 159.633910858767
+MAPE: 6.10012308966529
+SMAPE: 1.01104173925782
+Pearson: -0.224109147226218
+Spearman: -0.210729072907291
+Kendall: -0.136161616161616
+R2: -0.00658201124280167
+Features in simulation: 
+corARMA(form = ~ind, value=0.9, p=1, q=0, fixed=TRUE)
+
+######################
+Simulation: 8
+Run time: 7.16336590051651
+Detective measures:
+Power: FALSE
+False positives 0
+True positives: 1
+False negatives: 4
+False discovery rate: 0
+Recall: 0.2
+Precision: 1
+F1-score: 0.333333333333333
+Predictive measures: 
+MSE: 35788.2989262833
+MAE: 159.256171468375
+MAPE: 6.07202147599566
+SMAPE: 1.00986895994315
+Pearson: -0.211271599504806
+Spearman: -0.215733573357336
+Kendall: -0.134141414141414
+R2: -0.00283374780952639
+Features in simulation: 
+corARMA(form = ~ind, value=0.9, p=1, q=0, fixed=TRUE)
+
+######################
+Simulation: 9
+Run time: 7.15416148900986
+Detective measures:
+Power: FALSE
+False positives 0
+True positives: 1
+False negatives: 4
+False discovery rate: 0
+Recall: 0.2
+Precision: 1
+F1-score: 0.333333333333333
+Predictive measures: 
+MSE: 35833.8908706935
+MAE: 159.376954569404
+MAPE: 6.09581502610509
+SMAPE: 1.01011452753206
+Pearson: -0.204384019145467
+Spearman: -0.206528652865287
+Kendall: -0.136161616161616
+R2: -0.00411129219846207
+Features in simulation: 
+corARMA(form = ~ind, value=0.9, p=1, q=0, fixed=TRUE)
+
+######################
+Simulation: 10
+Run time: 6.9631688117981
+Detective measures:
+Power: FALSE
+False positives 0
+True positives: 1
+False negatives: 4
+False discovery rate: 0
+Recall: 0.2
+Precision: 1
+F1-score: 0.333333333333333
+Predictive measures: 
+MSE: 35890.8770171944
+MAE: 159.552789873244
+MAPE: 6.10926441233603
+SMAPE: 1.01070419381467
+Pearson: -0.213551773535585
+Spearman: -0.201380138013801
+Kendall: -0.12969696969697
+R2: -0.00570811665179716
+Features in simulation: 
+corARMA(form = ~ind, value=0.9, p=1, q=0, fixed=TRUE)
+
+######################
+Simulation: 11
+Run time: 6.69905692736308
+Detective measures:
+Power: FALSE
+False positives 0
+True positives: 1
+False negatives: 4
+False discovery rate: 0
+Recall: 0.2
+Precision: 1
+F1-score: 0.333333333333333
+Predictive measures: 
+MSE: 35863.5547370933
+MAE: 159.462656377151
+MAPE: 6.09368528752097
+SMAPE: 1.01043997893543
+Pearson: -0.222026543104793
+Spearman: -0.211497149714971
+Kendall: -0.136161616161616
+R2: -0.00494251154134018
+Features in simulation: 
+corARMA(form = ~ind, value=0.9, p=1, q=0, fixed=TRUE)
+
+######################
+Simulation: 12
+Run time: 6.9714271346728
+Detective measures:
+Power: FALSE
+False positives 0
+True positives: 1
+False negatives: 4
+False discovery rate: 0
+Recall: 0.2
+Precision: 1
+F1-score: 0.333333333333333
+Predictive measures: 
+MSE: 35772.0304362213
+MAE: 159.212178749946
+MAPE: 6.06913968092139
+SMAPE: 1.00974611561339
+Pearson: -0.13578956595085
+Spearman: -0.139213921392139
+Kendall: -0.0739393939393939
+R2: -0.00237788398393102
+Features in simulation: 
+corARMA(form = ~ind, value=0.9, p=1, q=0, fixed=TRUE)
+
+######################
+Simulation: 13
+Run time: 7.70924276908239
+Detective measures:
+Power: FALSE
+False positives 0
+True positives: 1
+False negatives: 4
+False discovery rate: 0
+Recall: 0.2
+Precision: 1
+F1-score: 0.333333333333333
+Predictive measures: 
+MSE: 35872.7046826017
+MAE: 159.497334995264
+MAPE: 6.10447058331529
+SMAPE: 1.01052383250999
+Pearson: -0.211486168379359
+Spearman: -0.201632163216322
+Kendall: -0.128888888888889
+R2: -0.00519890467601591
+Features in simulation: 
+corARMA(form = ~ind, value=0.9, p=1, q=0, fixed=TRUE)
+
+######################
+Simulation: 14
+Run time: 6.8197101354599
+Detective measures:
+Power: FALSE
+False positives 0
+True positives: 1
+False negatives: 4
+False discovery rate: 0
+Recall: 0.2
+Precision: 1
+F1-score: 0.333333333333333
+Predictive measures: 
+MSE: 35766.8993884452
+MAE: 159.202369037076
+MAPE: 6.069640133254
+SMAPE: 1.00971933425128
+Pearson: -0.119432231289711
+Spearman: -0.129240924092409
+Kendall: -0.0666666666666667
+R2: -0.00223410548576641
+Features in simulation: 
+corARMA(form = ~ind, value=0.9, p=1, q=0, fixed=TRUE)
+
+######################
+Simulation: 15
+Run time: 6.85364449421565
+Detective measures:
+Power: FALSE
+False positives 0
+True positives: 1
+False negatives: 4
+False discovery rate: 0
+Recall: 0.2
+Precision: 1
+F1-score: 0.333333333333333
+Predictive measures: 
+MSE: 35819.334669149
+MAE: 159.336031238017
+MAPE: 6.08767802350295
+SMAPE: 1.01002399251626
+Pearson: -0.212987946628334
+Spearman: -0.214893489348935
+Kendall: -0.137373737373737
+R2: -0.00370340887942477
+Features in simulation: 
+corARMA(form = ~ind, value=0.9, p=1, q=0, fixed=TRUE)
+
+######################
+Simulation: 16
+Run time: 7.17843996286392
+Detective measures:
+Power: FALSE
+False positives 0
+True positives: 1
+False negatives: 4
+False discovery rate: 0
+Recall: 0.2
+Precision: 1
+F1-score: 0.333333333333333
+Predictive measures: 
+MSE: 35880.8957087332
+MAE: 159.512357281174
+MAPE: 6.09196953593922
+SMAPE: 1.01063177927769
+Pearson: -0.225963316930903
+Spearman: -0.20998499849985
+Kendall: -0.134141414141414
+R2: -0.00542842766761598
+Features in simulation: 
+corARMA(form = ~ind, value=0.9, p=1, q=0, fixed=TRUE)
+
+######################
+Simulation: 17
+Run time: 7.11215987205505
+Detective measures:
+Power: FALSE
+False positives 0
+True positives: 1
+False negatives: 4
+False discovery rate: 0
+Recall: 0.2
+Precision: 1
+F1-score: 0.333333333333333
+Predictive measures: 
+MSE: 35853.8044857901
+MAE: 159.433672675887
+MAPE: 6.09479206510371
+SMAPE: 1.01033082646916
+Pearson: -0.21888429928842
+Spearman: -0.204224422442244
+Kendall: -0.134141414141414
+R2: -0.0046692970732094
+Features in simulation: 
+corARMA(form = ~ind, value=0.9, p=1, q=0, fixed=TRUE)
+
+######################
+Simulation: 18
+Run time: 6.53706760406494
+Detective measures:
+Power: FALSE
+False positives 0
+True positives: 1
+False negatives: 4
+False discovery rate: 0
+Recall: 0.2
+Precision: 1
+F1-score: 0.333333333333333
+Predictive measures: 
+MSE: 35762.3022061851
+MAE: 159.187643854036
+MAPE: 6.07043753104088
+SMAPE: 1.00965194735302
+Pearson: -0.0325902324776378
+Spearman: -0.0284548454845485
+Kendall: -0.021010101010101
+R2: -0.00210528657976861
+Features in simulation: 
+corARMA(form = ~ind, value=0.9, p=1, q=0, fixed=TRUE)
+
+######################
+Simulation: 19
+Run time: 6.71890956560771
+Detective measures:
+Power: FALSE
+False positives 0
+True positives: 1
+False negatives: 4
+False discovery rate: 0
+Recall: 0.2
+Precision: 1
+F1-score: 0.333333333333333
+Predictive measures: 
+MSE: 35871.948379459
+MAE: 159.489688380637
+MAPE: 6.0968667895982
+SMAPE: 1.01052935929053
+Pearson: -0.220113585330763
+Spearman: -0.209240924092409
+Kendall: -0.135757575757576
+R2: -0.00517771209805562
+Features in simulation: 
+corARMA(form = ~ind, value=0.9, p=1, q=0, fixed=TRUE)
+
+######################
+Simulation: 20
+Run time: 7.19624591271083
+Detective measures:
+Power: FALSE
+False positives 0
+True positives: 1
+False negatives: 4
+False discovery rate: 0
+Recall: 0.2
+Precision: 1
+F1-score: 0.333333333333333
+Predictive measures: 
+MSE: 35833.1880606869
+MAE: 159.37208094886
+MAPE: 6.09563077065441
+SMAPE: 1.01009819296356
+Pearson: -0.209798174360235
+Spearman: -0.213357335733573
+Kendall: -0.13979797979798
+R2: -0.00409159856635033
+Features in simulation: 
+corARMA(form = ~ind, value=0.9, p=1, q=0, fixed=TRUE)
