@@ -8,10 +8,23 @@ The latent ar1 simulation was run locally on my own mac.
 
 ## Errata
 
-I have discovered a couple mistakes:
+I have discovered a few mistakes and imprecisions:
 1. The baseline predictions for the iid simulations were incorrectly simulated with 120 datapoints instead of 1020, which was the number of datapoints used in the tables that are given in the thesis. This does, in my opinion, not change the validity of the comments made in the thesis regarding the R^2 score. However, the difference is in reality smaller than what was presented in the thesis. This concerns tables 6.4 and 6.8, and corrected files can be found in the "Corrected_iid_base_preds" subfolder to the "base_preds" folder.
 2. The detection numbers in table 6.2 are not completely correct. Corrections below:
     - Noise=5. $F_4: 20$
     - Noise=10. $F_4: 20$
     - Noise=10. $x_2: 12$
-
+3. There is also a mistake in section 6.3.1 where firstly, and confusingly, it says "The algorithm can choose from the following latent $AR(1)$ processes". It should rather say "The algorithm can choose from the following error $AR(1)$ processes". Secondly, the align environment specifying the 3 possible error $AR(1)$ processes says
+\begin{align*}
+a^t &= 0.9 \cdot a^{t-1} + \epsilon_a^t &&\epsilon_a^t \sim N(0, 0.1) \\
+a^t &= 0.5 \cdot a^{t-1} + \epsilon_a^t &&\epsilon_a^t \sim N(0, 0.1) \\
+a^t &= 0.1 \cdot a^{t-1} + \epsilon_a^t &&\epsilon_a^t \sim N(0, 0.1).
+\end{align*}
+This should have been more correctly, and less confusingly, specified as as 
+\begin{align*}
+\epsilon_y^t &= 0.9 \cdot \epsilon_y^{t-1} + \delta^t &&\delta^t \sim N(0, \sigma_{\delta}^2) \\
+\epsilon_y^t &= 0.5 \cdot \epsilon_y^{t-1} + \delta^t &&\delta^t \sim N(0, \sigma_{\delta}^2) \\
+\epsilon_y^t &= 0.1 \cdot \epsilon_y^{t-1} + \delta^t &&\delta^t \sim N(0, \sigma_{\delta}^2),
+\end{align*}
+where $\sigma_{\delta}^2$ are estimated in the model fitting procedure. I also failed to specify that, in the data generating process, $\sigma_{\delta}^2$ is varied with $\sigma_{\delta}^2 \in \{0.01, 0.1, 1, 5, 10, 100\}$. Also, when describing the results, $\sigma_y^2 = \sigma_{\delta}^2$.
+4. In section 6.3.2, when describing the results, $\sigma_y^2 = \sigma_{\epsilon_y}^2$.
