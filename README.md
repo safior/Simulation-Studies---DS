@@ -14,17 +14,15 @@ I have discovered a few mistakes and imprecisions:
     - Noise=5. $F_4: 20$
     - Noise=10. $F_4: 20$
     - Noise=10. $x_2: 12$
-3. There is also a mistake in section 6.3.1 where firstly, and confusingly, it says "The algorithm can choose from the following latent $AR(1)$ processes". It should rather say "The algorithm can choose from the following error $AR(1)$ processes". Secondly, the align environment specifying the 3 possible error $AR(1)$ processes says
-\begin{align*}
-a^t &= 0.9 \cdot a^{t-1} + \epsilon_a^t &&\epsilon_a^t \sim N(0, 0.1) \\
-a^t &= 0.5 \cdot a^{t-1} + \epsilon_a^t &&\epsilon_a^t \sim N(0, 0.1) \\
-a^t &= 0.1 \cdot a^{t-1} + \epsilon_a^t &&\epsilon_a^t \sim N(0, 0.1).
-\end{align*}
-This should have been more correctly, and less confusingly, specified as as 
-\begin{align*}
-\epsilon_y^t &= 0.9 \cdot \epsilon_y^{t-1} + \delta^t &&\delta^t \sim N(0, \sigma_{\delta}^2) \\
-\epsilon_y^t &= 0.5 \cdot \epsilon_y^{t-1} + \delta^t &&\delta^t \sim N(0, \sigma_{\delta}^2) \\
-\epsilon_y^t &= 0.1 \cdot \epsilon_y^{t-1} + \delta^t &&\delta^t \sim N(0, \sigma_{\delta}^2),
-\end{align*}
-where $\sigma_{\delta}^2$ are estimated in the model fitting procedure. I also failed to specify that, in the data generating process, $\sigma_{\delta}^2$ is varied with $\sigma_{\delta}^2 \in \{0.01, 0.1, 1, 5, 10, 100\}$. Also, when describing the results, $\sigma_y^2 = \sigma_{\delta}^2$.
-4. In section 6.3.2, when describing the results, $\sigma_y^2 = \sigma_{\epsilon_y}^2$.
+3. There is also a mistake in section 6.3.1 where firstly, and confusingly, it says "The algorithm can choose from the following latent $AR(1)$ processes". It should rather say "The algorithm can choose from the following error $AR(1)$ processes". Secondly, the align environment specifying the 3 possible error $AR(1)$ processes says $$\begin{aligned}
+a^t &= 0.9 \cdot a^{t-1} + \epsilon_a^t \quad &&\epsilon_a^t \sim N(0, 0.1) \\
+a^t &= 0.5 \cdot a^{t-1} + \epsilon_a^t \quad &&\epsilon_a^t \sim N(0, 0.1) \\
+a^t &= 0.1 \cdot a^{t-1} + \epsilon_a^t\quad &&\epsilon_a^t \sim N(0, 0.1).
+\end{aligned}$$
+This should have been more correctly, and less confusingly, specified as $$\begin{aligned}
+\epsilon_y^t &= 0.9 \cdot \epsilon_y^{t-1} + \delta^t \quad &&\delta^t \sim N(0, \sigma_{\delta}^2) \\
+\epsilon_y^t &= 0.5 \cdot \epsilon_y^{t-1} + \delta^t \quad &&\delta^t \sim N(0, \sigma_{\delta}^2) \\
+\epsilon_y^t &= 0.1 \cdot \epsilon_y^{t-1} + \delta^t \quad &&\delta^t \sim N(0, \sigma_{\delta}^2),
+\end{aligned}$$
+where $\sigma_{\delta}^2$ are estimated in the model fitting procedure. I also failed to specify that, in the data generating process, $\sigma_{\delta}^2$ is varied with $\sigma_{\delta}^2 \in \{0.01, 0.1, 1, 5, 10, 100\}$. In addition, when describing the results, $\sigma_y^2 = \sigma_{\delta}^2$.
+4. In section 6.2.1, 6.2.2, and 6.3.2, when describing the results, $\sigma_y^2 = \sigma_{\epsilon_y}^2$.
