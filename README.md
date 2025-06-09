@@ -22,6 +22,6 @@ where $\phi \in \\{0.1, 0.5, 0.9\\}$. This should have been more correctly, and 
 ```math
 \epsilon_y^t = \phi \cdot \epsilon_y^{t-1} + \delta^t \qquad \delta^t \sim N(0, \sigma_{\delta}^2)
 ```
-where $\sigma_{\delta}^2$ are estimated in the model fitting procedure. I also failed to specify that, in the data generating process, $\sigma_{\delta}^2$ is varied with         $\sigma_{\delta}^2 \in \\{0.01, 0.1, 1, 5, 10, 100\\}$. In addition, when describing the results, I should have specified that $\sigma_y^2 := \sigma_{\delta}^2$.
+I also failed to specify that, in the data generating process, $\sigma_{\delta}^2$ is varied with         $\sigma_{\delta}^2 \in \\{0.01, 0.1, 1, 5, 10, 100\\}$. In addition, when describing the results, I should have specified that $\sigma_y^2 := \sigma_{\delta}^2$.
 
 4. In section 6.2.1, 6.2.2, and 6.3.2, when describing the results, I should have specified that $\sigma_y^2 := \sigma_{\epsilon_y}^2$.
